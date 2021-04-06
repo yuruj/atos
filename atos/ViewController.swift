@@ -42,25 +42,32 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
     }
     
     private func addLaunchVC() {
-        if (!UserDefaults.standard.bool(forKey: "firstLaunch") && false) {
-            UserDefaults.standard.set(true, forKey: "firstLaunch")
-            let vc = LaunchViewController()
-            vc.hidesBottomBarWhenPushed = true
-            let homevc = self.children[0] as! UINavigationController
-            homevc.pushViewController(vc, animated: false)
-        } else {
-            
-        }
+//        if (!UserDefaults.standard.bool(forKey: "firstLaunch") && false) {
+//            UserDefaults.standard.set(true, forKey: "firstLaunch")
+//            let vc = LaunchViewController()
+//            vc.hidesBottomBarWhenPushed = true
+//            let homevc = self.children[0] as! UINavigationController
+//            homevc.pushViewController(vc, animated: false)
+//        } else {
+//
+//        }
+        
+        let vc = SearchViewController()
+        vc.hidesBottomBarWhenPushed = true
+        let homevc = self.children[0] as! UINavigationController
+        homevc.navigationBar.isHidden = true
+        homevc.pushViewController(vc, animated: false)
     }
     
     
     private func addHomeVC() {
         let vc = HomeViewController()
         vc.view.backgroundColor = UIColor.white
+        vc.title = "首页"
         
         let cvc = UINavigationController(rootViewController: vc)
         cvc.navigationBar.barTintColor = nil
-        cvc.navigationBar.isHidden = true
+        cvc.navigationBar.isHidden = false
         cvc.navigationBar.setValue(true, forKey: "hidesShadow")
         cvc.navigationItem.backBarButtonItem = nil
         cvc.tabBarItem.title = "首页"
@@ -72,10 +79,11 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
     private func addWarnVC() {
         let vc = WarnViewController()
         vc.view.backgroundColor = UIColor.white
+        vc.title = "告警"
         
         let cvc = UINavigationController(rootViewController: vc)
         cvc.navigationBar.barTintColor = nil
-        cvc.navigationBar.isHidden = true
+        cvc.navigationBar.isHidden = false
         cvc.navigationBar.setValue(true, forKey: "hidesShadow")
         cvc.navigationItem.backBarButtonItem = nil
         cvc.tabBarItem.title = "警告"
@@ -87,10 +95,11 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
     private func addMyVC() {
         let vc = MyViewController()
         vc.view.backgroundColor = UIColor.white
+        vc.title = "个人中心"
         
         let cvc = UINavigationController(rootViewController: vc)
         cvc.navigationBar.barTintColor = nil
-        cvc.navigationBar.isHidden = true
+        cvc.navigationBar.isHidden = false
         cvc.navigationBar.setValue(true, forKey: "hidesShadow")
         cvc.navigationItem.backBarButtonItem = nil
         cvc.tabBarItem.title = "我的"
@@ -100,8 +109,7 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
     }
     
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-        NSLog("yrj tabBar \(item.tag)")
-        NSLog("测试统计代码行数")
+        NSLog("----yrj tabBar \(item.tag)----")
     }
     
 }

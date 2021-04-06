@@ -67,18 +67,21 @@ class MyViewController: UIViewController {
     @objc func view1Clicked() {
         NSLog("----view1 clicked-----")
         let vc = MyViewView1Controller()
+        vc.title = "基本信息"
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc func view2Clicked() {
         NSLog("----view2 clicked-----")
         let vc = MyViewView2Controller()
+        vc.title = "安全中心"
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc func view3Clicked() {
         NSLog("----view3 clicked-----")
         let vc = MyViewView3Controller()
+        vc.title = "联系方式"
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
