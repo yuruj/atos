@@ -17,6 +17,11 @@
 		345A31422605D68500A710BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A31412605D68500A710BA /* HomeViewController.swift */; };
 		345A31452605D6A300A710BA /* WarnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A31442605D6A300A710BA /* WarnViewController.swift */; };
 		345A314A2605D6CE00A710BA /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A31492605D6CE00A710BA /* MyViewController.swift */; };
+		34681D212619ED09001E45B0 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34681D202619ED09001E45B0 /* DatePickerViewController.swift */; };
+		34D5B53D261C03DB006F013E /* MyViewView1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */; };
+		34D5B540261C03ED006F013E /* MyViewView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */; };
+		34D5B543261C03FE006F013E /* MyViewView3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B542261C03FE006F013E /* MyViewView3Controller.swift */; };
+		34D5B546261C0AA8006F013E /* CompanyInformationUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B545261C0AA8006F013E /* CompanyInformationUnitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		345A31412605D68500A710BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		345A31442605D6A300A710BA /* WarnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarnViewController.swift; sourceTree = "<group>"; };
 		345A31492605D6CE00A710BA /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		34681D202619ED09001E45B0 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView1Controller.swift; sourceTree = "<group>"; };
+		34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView2Controller.swift; sourceTree = "<group>"; };
+		34D5B542261C03FE006F013E /* MyViewView3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView3Controller.swift; sourceTree = "<group>"; };
+		34D5B545261C0AA8006F013E /* CompanyInformationUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInformationUnitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +79,13 @@
 				345A312C2605C94600A710BA /* ViewController.swift */,
 				345A313E2605D63800A710BA /* LaunchViewController.swift */,
 				345A31412605D68500A710BA /* HomeViewController.swift */,
+				34D5B545261C0AA8006F013E /* CompanyInformationUnitView.swift */,
 				345A31442605D6A300A710BA /* WarnViewController.swift */,
 				345A31492605D6CE00A710BA /* MyViewController.swift */,
+				34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */,
+				34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */,
+				34D5B542261C03FE006F013E /* MyViewView3Controller.swift */,
+				34681D202619ED09001E45B0 /* DatePickerViewController.swift */,
 				345A312E2605C94600A710BA /* Main.storyboard */,
 				345A31312605C94700A710BA /* Assets.xcassets */,
 				345A31332605C94700A710BA /* LaunchScreen.storyboard */,
@@ -150,9 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				345A31422605D68500A710BA /* HomeViewController.swift in Sources */,
+				34D5B53D261C03DB006F013E /* MyViewView1Controller.swift in Sources */,
+				34D5B543261C03FE006F013E /* MyViewView3Controller.swift in Sources */,
 				345A312D2605C94600A710BA /* ViewController.swift in Sources */,
 				345A31452605D6A300A710BA /* WarnViewController.swift in Sources */,
 				345A314A2605D6CE00A710BA /* MyViewController.swift in Sources */,
+				34D5B546261C0AA8006F013E /* CompanyInformationUnitView.swift in Sources */,
+				34681D212619ED09001E45B0 /* DatePickerViewController.swift in Sources */,
+				34D5B540261C03ED006F013E /* MyViewView2Controller.swift in Sources */,
 				345A31292605C94600A710BA /* AppDelegate.swift in Sources */,
 				345A312B2605C94600A710BA /* SceneDelegate.swift in Sources */,
 				345A313F2605D63800A710BA /* LaunchViewController.swift in Sources */,
