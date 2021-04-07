@@ -9,12 +9,14 @@ import UIKit
 
 class HomeViewCollectionViewCell: UICollectionViewCell {
     
-    var view: CompanyInformationUnitView!
+    lazy var cellView = { () -> UIView in
+        let tp = CompanyInformationUnitView(frame: self.frame)
+        return tp
+    } ()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        view = CompanyInformationUnitView(frame: self.contentView.frame)
-        self.contentView.addSubview(view)
+        self.contentView.addSubview(cellView)
     }
     
     required init?(coder: NSCoder) {

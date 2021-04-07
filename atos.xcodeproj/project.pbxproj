@@ -22,6 +22,8 @@
 		345A31422605D68500A710BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A31412605D68500A710BA /* HomeViewController.swift */; };
 		345A31452605D6A300A710BA /* WarnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A31442605D6A300A710BA /* WarnViewController.swift */; };
 		345A314A2605D6CE00A710BA /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A31492605D6CE00A710BA /* MyViewController.swift */; };
+		3468A3E4261D9F6600233D5C /* ChangeHeadPortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3468A3E3261D9F6600233D5C /* ChangeHeadPortraitViewController.swift */; };
+		3468A3E9261DE49F00233D5C /* FacilitiesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3468A3E8261DE49F00233D5C /* FacilitiesDetailViewController.swift */; };
 		34D5B53D261C03DB006F013E /* MyViewView1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */; };
 		34D5B540261C03ED006F013E /* MyViewView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */; };
 		34D5B543261C03FE006F013E /* MyViewView3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B542261C03FE006F013E /* MyViewView3Controller.swift */; };
@@ -49,6 +51,8 @@
 		345A31412605D68500A710BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		345A31442605D6A300A710BA /* WarnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarnViewController.swift; sourceTree = "<group>"; };
 		345A31492605D6CE00A710BA /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		3468A3E3261D9F6600233D5C /* ChangeHeadPortraitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeHeadPortraitViewController.swift; sourceTree = "<group>"; };
+		3468A3E8261DE49F00233D5C /* FacilitiesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesDetailViewController.swift; sourceTree = "<group>"; };
 		34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView1Controller.swift; sourceTree = "<group>"; };
 		34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView2Controller.swift; sourceTree = "<group>"; };
 		34D5B542261C03FE006F013E /* MyViewView3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView3Controller.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 			children = (
 				345A31492605D6CE00A710BA /* MyViewController.swift */,
 				34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */,
+				3468A3E3261D9F6600233D5C /* ChangeHeadPortraitViewController.swift */,
 				34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */,
 				34FEED55261D86AA00357E86 /* ChangePasswordViewController.swift */,
 				34D5B542261C03FE006F013E /* MyViewView3Controller.swift */,
@@ -97,6 +102,7 @@
 				34D86340261C3D4700C522A9 /* CustomerOverviewViewController.swift */,
 				3415B3E6261C8FB30009E1F5 /* CompanyDetailViewController.swift */,
 				3415B3E9261C90CB0009E1F5 /* CompanyDetailCollectionViewCell.swift */,
+				3468A3E8261DE49F00233D5C /* FacilitiesDetailViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 				345A312D2605C94600A710BA /* ViewController.swift in Sources */,
 				345A31452605D6A300A710BA /* WarnViewController.swift in Sources */,
 				345A314A2605D6CE00A710BA /* MyViewController.swift in Sources */,
+				3468A3E4261D9F6600233D5C /* ChangeHeadPortraitViewController.swift in Sources */,
 				34D5B546261C0AA8006F013E /* CompanyInformationUnitView.swift in Sources */,
 				34D86341261C3D4700C522A9 /* CustomerOverviewViewController.swift in Sources */,
 				3415B3DB261C7FE30009E1F5 /* MagicRectView.swift in Sources */,
@@ -243,6 +250,7 @@
 				345A31292605C94600A710BA /* AppDelegate.swift in Sources */,
 				345A312B2605C94600A710BA /* SceneDelegate.swift in Sources */,
 				3415B3E3261C89290009E1F5 /* SearchLabelView.swift in Sources */,
+				3468A3E9261DE49F00233D5C /* FacilitiesDetailViewController.swift in Sources */,
 				345A313F2605D63800A710BA /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

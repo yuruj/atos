@@ -73,15 +73,16 @@ class HomeViewController: UIViewController {
     
     lazy var collectionView = { () -> UICollectionView in
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: screenSize.width - 40, height: 50)
+        layout.itemSize = CGSize(width: screenSize.width - 40, height: 80)
         layout.minimumLineSpacing = 20
         layout.scrollDirection = .vertical
         
-        let tp = UICollectionView()
+        let tp = UICollectionView(frame: CGRect(x: 20, y: 370, width: screenSize.width - 40, height: 80*3+20*2), collectionViewLayout: layout)
         tp.backgroundColor = nil
         tp.delegate = self
         tp.dataSource = self
         tp.register(HomeViewCollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        tp.isScrollEnabled = false
         return tp
     } ()
     
@@ -93,6 +94,7 @@ class HomeViewController: UIViewController {
         self.scrollView.addSubview(magicRect2)
         self.scrollView.addSubview(magicRect3)
         self.scrollView.addSubview(view2)
+        self.scrollView.addSubview(collectionView)
     }
     
     @objc func refreshView() {
@@ -107,7 +109,7 @@ extension HomeViewController: UIScrollViewDelegate, UICollectionViewDelegate, UI
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 2
+        return 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
