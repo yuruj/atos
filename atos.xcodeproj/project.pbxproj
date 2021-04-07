@@ -28,6 +28,7 @@
 		34D5B546261C0AA8006F013E /* CompanyInformationUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B545261C0AA8006F013E /* CompanyInformationUnitView.swift */; };
 		34D8633E261C3B1000C522A9 /* HomVewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8633D261C3B1000C522A9 /* HomVewCollectionViewCell.swift */; };
 		34D86341261C3D4700C522A9 /* CustomerOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D86340261C3D4700C522A9 /* CustomerOverviewViewController.swift */; };
+		34FEED56261D86AA00357E86 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEED55261D86AA00357E86 /* ChangePasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		34D5B545261C0AA8006F013E /* CompanyInformationUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInformationUnitView.swift; sourceTree = "<group>"; };
 		34D8633D261C3B1000C522A9 /* HomVewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomVewCollectionViewCell.swift; sourceTree = "<group>"; };
 		34D86340261C3D4700C522A9 /* CustomerOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerOverviewViewController.swift; sourceTree = "<group>"; };
+		34FEED55261D86AA00357E86 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				345A31492605D6CE00A710BA /* MyViewController.swift */,
 				34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */,
 				34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */,
+				34FEED55261D86AA00357E86 /* ChangePasswordViewController.swift */,
 				34D5B542261C03FE006F013E /* MyViewView3Controller.swift */,
 			);
 			path = My;
@@ -227,6 +230,7 @@
 				345A31422605D68500A710BA /* HomeViewController.swift in Sources */,
 				34D5B53D261C03DB006F013E /* MyViewView1Controller.swift in Sources */,
 				34D5B543261C03FE006F013E /* MyViewView3Controller.swift in Sources */,
+				34FEED56261D86AA00357E86 /* ChangePasswordViewController.swift in Sources */,
 				345A312D2605C94600A710BA /* ViewController.swift in Sources */,
 				345A31452605D6A300A710BA /* WarnViewController.swift in Sources */,
 				345A314A2605D6CE00A710BA /* MyViewController.swift in Sources */,

@@ -28,6 +28,10 @@ class MyViewController: UIViewController {
         tp.layer.cornerRadius = 5
         tp.backgroundColor = UIColor.lightGray
         tp.frame = CGRect(x: 10, y: 200, width: screenSize.width - 20, height: 60)
+        let titleLabel = UILabel()
+        titleLabel.text = "安全中心"
+        titleLabel.frame = CGRect(x: 50, y: 20, width: 80, height: 20)
+        tp.addSubview(titleLabel)
         let tapGes = UITapGestureRecognizer()
         tapGes.addTarget(self, action: #selector(view2Clicked))
         tp.addGestureRecognizer(tapGes)
@@ -38,6 +42,10 @@ class MyViewController: UIViewController {
         let tp = UIView()
         tp.layer.cornerRadius = 5
         tp.backgroundColor = UIColor.lightGray
+        let titleLabel = UILabel()
+        titleLabel.text = "关于我们"
+        titleLabel.frame = CGRect(x: 50, y: 20, width: 80, height: 20)
+        tp.addSubview(titleLabel)
         tp.frame = CGRect(x: 10, y: 300, width: screenSize.width - 20, height: 60)
         let tapGes = UITapGestureRecognizer()
         tapGes.addTarget(self, action: #selector(view3Clicked))
@@ -48,10 +56,10 @@ class MyViewController: UIViewController {
     lazy var logoutBtn = { () -> UIButton in
         let tp = UIButton()
         tp.backgroundColor = UIColor.red
-        tp.layer.cornerRadius = 5
+        tp.layer.cornerRadius = 30
         tp.setTitle("注销账号", for: .normal)
         tp.addTarget(self, action: #selector(logoutBtnClicked), for: .touchUpInside)
-        tp.frame = CGRect(x: 80, y: 400, width: screenSize.width - 160, height: 60)
+        tp.frame = CGRect(x: 80, y: 600, width: screenSize.width - 160, height: 60)
         return tp
     } ()
     
@@ -68,6 +76,7 @@ class MyViewController: UIViewController {
         NSLog("----view1 clicked-----")
         let vc = MyViewView1Controller()
         vc.title = "基本信息"
+        vc.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -75,6 +84,7 @@ class MyViewController: UIViewController {
         NSLog("----view2 clicked-----")
         let vc = MyViewView2Controller()
         vc.title = "安全中心"
+        vc.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -82,6 +92,7 @@ class MyViewController: UIViewController {
         NSLog("----view3 clicked-----")
         let vc = MyViewView3Controller()
         vc.title = "联系方式"
+        vc.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

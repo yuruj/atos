@@ -7,6 +7,8 @@
 
 import UIKit
 
+let navHeight: CGFloat = 91
+
 class ViewController: UITabBarController, UITabBarControllerDelegate {
     
     lazy var titleLabel = { () -> UILabel in
@@ -42,21 +44,21 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
     }
     
     private func addLaunchVC() {
-//        if (!UserDefaults.standard.bool(forKey: "firstLaunch") && false) {
-//            UserDefaults.standard.set(true, forKey: "firstLaunch")
-//            let vc = LaunchViewController()
-//            vc.hidesBottomBarWhenPushed = true
-//            let homevc = self.children[0] as! UINavigationController
-//            homevc.pushViewController(vc, animated: false)
-//        } else {
-//
-//        }
+        if (!UserDefaults.standard.bool(forKey: "firstLaunch") && false) {
+            UserDefaults.standard.set(true, forKey: "firstLaunch")
+            let vc = LaunchViewController()
+            vc.hidesBottomBarWhenPushed = true
+            let homevc = self.children[0] as! UINavigationController
+            homevc.pushViewController(vc, animated: false)
+        } else {
+
+        }
         
-        let vc = SearchViewController()
-        vc.hidesBottomBarWhenPushed = true
-        let homevc = self.children[0] as! UINavigationController
-        homevc.navigationBar.isHidden = true
-        homevc.pushViewController(vc, animated: false)
+//        let vc = SearchViewController()
+//        vc.hidesBottomBarWhenPushed = true
+//        let homevc = self.children[0] as! UINavigationController
+//        homevc.navigationBar.isHidden = true
+//        homevc.pushViewController(vc, animated: false)
     }
     
     
