@@ -44,11 +44,12 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
     }
     
     private func addLaunchVC() {
-        if (!UserDefaults.standard.bool(forKey: "firstLaunch") && false) {
+        if (false && !UserDefaults.standard.bool(forKey: "firstLaunch")) {
             UserDefaults.standard.set(true, forKey: "firstLaunch")
             let vc = LaunchViewController()
             vc.hidesBottomBarWhenPushed = true
             let homevc = self.children[0] as! UINavigationController
+            homevc.navigationBar.isHidden = true
             homevc.pushViewController(vc, animated: false)
         } else {
 

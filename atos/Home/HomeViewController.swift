@@ -47,20 +47,29 @@ class HomeViewController: UIViewController {
     } ()
     
     lazy var magicRect1 = { () -> UIView in
+        let tapGes = UITapGestureRecognizer()
+        tapGes.addTarget(self, action: #selector(magicRect1Clicked))
         let tp = MagicRectView(frame: CGRect(x: 30, y: 120, width: 100, height: 100))
         tp.backgroundColor = UIColor.yellow
+        tp.addGestureRecognizer(tapGes)
         return tp
     } ()
     
     lazy var magicRect2 = { () -> UIView in
+        let tapGes = UITapGestureRecognizer()
+        tapGes.addTarget(self, action: #selector(magicRect2Clicked))
         let tp = MagicRectView(frame: CGRect(x: 150, y: 120, width: 100, height: 100))
         tp.backgroundColor = UIColor.yellow
+        tp.addGestureRecognizer(tapGes)
         return tp
     } ()
     
     lazy var magicRect3 = { () -> UIView in
+        let tapGes = UITapGestureRecognizer()
+        tapGes.addTarget(self, action: #selector(magicRect3Clicked))
         let tp = MagicRectView(frame: CGRect(x: 270, y: 120, width: 100, height: 100))
         tp.backgroundColor = UIColor.yellow
+        tp.addGestureRecognizer(tapGes)
         return tp
     } ()
     
@@ -99,6 +108,30 @@ class HomeViewController: UIViewController {
     
     @objc func refreshView() {
         NSLog("----下拉刷新----")
+    }
+    
+    @objc func magicRect1Clicked() {
+        NSLog("----magicRect1 Clicked----")
+        let vc = CustomerOverviewViewController()
+        vc.title = "客户总览"
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func magicRect2Clicked() {
+        NSLog("----magicRect2 Clicked----")
+        let vc = CustomerOverviewViewController()
+        vc.title = "客户总览"
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func magicRect3Clicked() {
+        NSLog("----magicRect3 Clicked----")
+        let vc = CustomerOverviewViewController()
+        vc.title = "客户总览"
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,10 @@
 		345A314A2605D6CE00A710BA /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A31492605D6CE00A710BA /* MyViewController.swift */; };
 		3468A3E4261D9F6600233D5C /* ChangeHeadPortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3468A3E3261D9F6600233D5C /* ChangeHeadPortraitViewController.swift */; };
 		3468A3E9261DE49F00233D5C /* FacilitiesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3468A3E8261DE49F00233D5C /* FacilitiesDetailViewController.swift */; };
+		3479E077262466F600F628D2 /* NetWorkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3479E076262466F600F628D2 /* NetWorkSession.swift */; };
+		34B5A4012623E50200649D96 /* ChangeNickNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B5A4002623E50200649D96 /* ChangeNickNameViewController.swift */; };
+		34B5A4062623E57700649D96 /* ChangePhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B5A4052623E57700649D96 /* ChangePhoneNumberViewController.swift */; };
+		34B5A40A2623E5A100649D96 /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B5A4092623E5A100649D96 /* ChangeEmailViewController.swift */; };
 		34D5B53D261C03DB006F013E /* MyViewView1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */; };
 		34D5B540261C03ED006F013E /* MyViewView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */; };
 		34D5B543261C03FE006F013E /* MyViewView3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B542261C03FE006F013E /* MyViewView3Controller.swift */; };
@@ -31,6 +35,7 @@
 		34D8633E261C3B1000C522A9 /* HomVewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8633D261C3B1000C522A9 /* HomVewCollectionViewCell.swift */; };
 		34D86341261C3D4700C522A9 /* CustomerOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D86340261C3D4700C522A9 /* CustomerOverviewViewController.swift */; };
 		34FEED56261D86AA00357E86 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEED55261D86AA00357E86 /* ChangePasswordViewController.swift */; };
+		9B901E968C7DDC916D1ACC0D /* Pods_atos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D837FCC4C010932246AB9799 /* Pods_atos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +58,10 @@
 		345A31492605D6CE00A710BA /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		3468A3E3261D9F6600233D5C /* ChangeHeadPortraitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeHeadPortraitViewController.swift; sourceTree = "<group>"; };
 		3468A3E8261DE49F00233D5C /* FacilitiesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesDetailViewController.swift; sourceTree = "<group>"; };
+		3479E076262466F600F628D2 /* NetWorkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkSession.swift; sourceTree = "<group>"; };
+		34B5A4002623E50200649D96 /* ChangeNickNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNickNameViewController.swift; sourceTree = "<group>"; };
+		34B5A4052623E57700649D96 /* ChangePhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePhoneNumberViewController.swift; sourceTree = "<group>"; };
+		34B5A4092623E5A100649D96 /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailViewController.swift; sourceTree = "<group>"; };
 		34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView1Controller.swift; sourceTree = "<group>"; };
 		34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView2Controller.swift; sourceTree = "<group>"; };
 		34D5B542261C03FE006F013E /* MyViewView3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView3Controller.swift; sourceTree = "<group>"; };
@@ -60,6 +69,9 @@
 		34D8633D261C3B1000C522A9 /* HomVewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomVewCollectionViewCell.swift; sourceTree = "<group>"; };
 		34D86340261C3D4700C522A9 /* CustomerOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerOverviewViewController.swift; sourceTree = "<group>"; };
 		34FEED55261D86AA00357E86 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		846B42011D8E99173CFCE40E /* Pods-atos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atos.release.xcconfig"; path = "Target Support Files/Pods-atos/Pods-atos.release.xcconfig"; sourceTree = "<group>"; };
+		D3AC8054E84F5B00734BCAA0 /* Pods-atos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atos.debug.xcconfig"; path = "Target Support Files/Pods-atos/Pods-atos.debug.xcconfig"; sourceTree = "<group>"; };
+		D837FCC4C010932246AB9799 /* Pods_atos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_atos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B901E968C7DDC916D1ACC0D /* Pods_atos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +91,7 @@
 			children = (
 				345A31492605D6CE00A710BA /* MyViewController.swift */,
 				34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */,
-				3468A3E3261D9F6600233D5C /* ChangeHeadPortraitViewController.swift */,
+				34B5A3FF2623E4A100649D96 /* View1Subviews */,
 				34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */,
 				34FEED55261D86AA00357E86 /* ChangePasswordViewController.swift */,
 				34D5B542261C03FE006F013E /* MyViewView3Controller.swift */,
@@ -122,6 +135,7 @@
 				3415B3DA261C7FE30009E1F5 /* MagicRectView.swift */,
 				3415B3E2261C89290009E1F5 /* SearchLabelView.swift */,
 				3415B3DF261C84660009E1F5 /* SearchViewController.swift */,
+				3479E076262466F600F628D2 /* NetWorkSession.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -131,6 +145,8 @@
 			children = (
 				345A31272605C94500A710BA /* atos */,
 				345A31262605C94500A710BA /* Products */,
+				F9D881C4DA640ADD09FFFA31 /* Pods */,
+				7B213559DB5D5A65DDB7F048 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +177,34 @@
 			path = atos;
 			sourceTree = "<group>";
 		};
+		34B5A3FF2623E4A100649D96 /* View1Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				3468A3E3261D9F6600233D5C /* ChangeHeadPortraitViewController.swift */,
+				34B5A4002623E50200649D96 /* ChangeNickNameViewController.swift */,
+				34B5A4052623E57700649D96 /* ChangePhoneNumberViewController.swift */,
+				34B5A4092623E5A100649D96 /* ChangeEmailViewController.swift */,
+			);
+			path = View1Subviews;
+			sourceTree = "<group>";
+		};
+		7B213559DB5D5A65DDB7F048 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D837FCC4C010932246AB9799 /* Pods_atos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9D881C4DA640ADD09FFFA31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC8054E84F5B00734BCAA0 /* Pods-atos.debug.xcconfig */,
+				846B42011D8E99173CFCE40E /* Pods-atos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 345A31392605C94700A710BA /* Build configuration list for PBXNativeTarget "atos" */;
 			buildPhases = (
+				0EB2083C4A4297C6A53BFE82 /* [CP] Check Pods Manifest.lock */,
 				345A31212605C94500A710BA /* Sources */,
 				345A31222605C94500A710BA /* Frameworks */,
 				345A31232605C94500A710BA /* Resources */,
+				B57CE9BF618751ADFB15E37A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,6 +272,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EB2083C4A4297C6A53BFE82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-atos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57CE9BF618751ADFB15E37A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-atos/Pods-atos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-atos/Pods-atos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-atos/Pods-atos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		345A31212605C94500A710BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -239,6 +327,8 @@
 				34FEED56261D86AA00357E86 /* ChangePasswordViewController.swift in Sources */,
 				345A312D2605C94600A710BA /* ViewController.swift in Sources */,
 				345A31452605D6A300A710BA /* WarnViewController.swift in Sources */,
+				34B5A4062623E57700649D96 /* ChangePhoneNumberViewController.swift in Sources */,
+				34B5A4012623E50200649D96 /* ChangeNickNameViewController.swift in Sources */,
 				345A314A2605D6CE00A710BA /* MyViewController.swift in Sources */,
 				3468A3E4261D9F6600233D5C /* ChangeHeadPortraitViewController.swift in Sources */,
 				34D5B546261C0AA8006F013E /* CompanyInformationUnitView.swift in Sources */,
@@ -248,10 +338,12 @@
 				34D5B540261C03ED006F013E /* MyViewView2Controller.swift in Sources */,
 				3415B3EA261C90CB0009E1F5 /* CompanyDetailCollectionViewCell.swift in Sources */,
 				345A31292605C94600A710BA /* AppDelegate.swift in Sources */,
+				3479E077262466F600F628D2 /* NetWorkSession.swift in Sources */,
 				345A312B2605C94600A710BA /* SceneDelegate.swift in Sources */,
 				3415B3E3261C89290009E1F5 /* SearchLabelView.swift in Sources */,
 				3468A3E9261DE49F00233D5C /* FacilitiesDetailViewController.swift in Sources */,
 				345A313F2605D63800A710BA /* LaunchViewController.swift in Sources */,
+				34B5A40A2623E5A100649D96 /* ChangeEmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +487,7 @@
 		};
 		345A313A2605C94700A710BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3AC8054E84F5B00734BCAA0 /* Pods-atos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -413,6 +506,7 @@
 		};
 		345A313B2605C94700A710BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846B42011D8E99173CFCE40E /* Pods-atos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
