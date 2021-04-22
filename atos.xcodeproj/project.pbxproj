@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340FC2A526311D3700E36314 /* ElectricityDetailView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FC2A426311D3700E36314 /* ElectricityDetailView2.swift */; };
+		340FC2A826311D5900E36314 /* ElectricityDetailView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FC2A726311D5900E36314 /* ElectricityDetailView3.swift */; };
 		3415B3DB261C7FE30009E1F5 /* MagicRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415B3DA261C7FE30009E1F5 /* MagicRectView.swift */; };
 		3415B3E0261C84660009E1F5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415B3DF261C84660009E1F5 /* SearchViewController.swift */; };
 		3415B3E3261C89290009E1F5 /* SearchLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415B3E2261C89290009E1F5 /* SearchLabelView.swift */; };
@@ -22,16 +24,23 @@
 		345A31422605D68500A710BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A31412605D68500A710BA /* HomeViewController.swift */; };
 		345A31452605D6A300A710BA /* WarnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A31442605D6A300A710BA /* WarnViewController.swift */; };
 		345A314A2605D6CE00A710BA /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A31492605D6CE00A710BA /* MyViewController.swift */; };
+		345FFEE2263143AA00F6C3FE /* ElectricityDetailView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345FFEE1263143AA00F6C3FE /* ElectricityDetailView1.swift */; };
+		345FFEE726315E4700F6C3FE /* WarnDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345FFEE626315E4700F6C3FE /* WarnDetailViewController.swift */; };
 		3468A3E4261D9F6600233D5C /* ChangeHeadPortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3468A3E3261D9F6600233D5C /* ChangeHeadPortraitViewController.swift */; };
 		3468A3E9261DE49F00233D5C /* FacilitiesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3468A3E8261DE49F00233D5C /* FacilitiesDetailViewController.swift */; };
+		346DB813262D8CBC00C49765 /* ChartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346DB812262D8CBC00C49765 /* ChartDataModel.swift */; };
+		346DB818262DD01600C49765 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346DB817262DD01600C49765 /* ColorHelper.swift */; };
 		3479E077262466F600F628D2 /* NetWorkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3479E076262466F600F628D2 /* NetWorkSession.swift */; };
+		347EC9D5262D4C8100358080 /* ElectricityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EC9D4262D4C8100358080 /* ElectricityDetailViewController.swift */; };
+		347EC9D9262D4CA500358080 /* SensorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EC9D8262D4CA500358080 /* SensorDetailViewController.swift */; };
 		34B5A4012623E50200649D96 /* ChangeNickNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B5A4002623E50200649D96 /* ChangeNickNameViewController.swift */; };
 		34B5A4062623E57700649D96 /* ChangePhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B5A4052623E57700649D96 /* ChangePhoneNumberViewController.swift */; };
 		34B5A40A2623E5A100649D96 /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B5A4092623E5A100649D96 /* ChangeEmailViewController.swift */; };
+		34B929CF2625B54600D3672F /* FacilitiesDetailCollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B929CE2625B54600D3672F /* FacilitiesDetailCollectionViewCell1.swift */; };
+		34C1AA24262E9D2C00C3FAFA /* FacilitiesDetailCollectionViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C1AA23262E9D2C00C3FAFA /* FacilitiesDetailCollectionViewCell4.swift */; };
 		34D5B53D261C03DB006F013E /* MyViewView1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */; };
 		34D5B540261C03ED006F013E /* MyViewView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */; };
 		34D5B543261C03FE006F013E /* MyViewView3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B542261C03FE006F013E /* MyViewView3Controller.swift */; };
-		34D5B546261C0AA8006F013E /* CompanyInformationUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5B545261C0AA8006F013E /* CompanyInformationUnitView.swift */; };
 		34D8633E261C3B1000C522A9 /* HomVewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8633D261C3B1000C522A9 /* HomVewCollectionViewCell.swift */; };
 		34D86341261C3D4700C522A9 /* CustomerOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D86340261C3D4700C522A9 /* CustomerOverviewViewController.swift */; };
 		34FEED56261D86AA00357E86 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEED55261D86AA00357E86 /* ChangePasswordViewController.swift */; };
@@ -39,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340FC2A426311D3700E36314 /* ElectricityDetailView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityDetailView2.swift; sourceTree = "<group>"; };
+		340FC2A726311D5900E36314 /* ElectricityDetailView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityDetailView3.swift; sourceTree = "<group>"; };
 		3415B3DA261C7FE30009E1F5 /* MagicRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicRectView.swift; sourceTree = "<group>"; };
 		3415B3DF261C84660009E1F5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3415B3E2261C89290009E1F5 /* SearchLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLabelView.swift; sourceTree = "<group>"; };
@@ -56,16 +67,23 @@
 		345A31412605D68500A710BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		345A31442605D6A300A710BA /* WarnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarnViewController.swift; sourceTree = "<group>"; };
 		345A31492605D6CE00A710BA /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		345FFEE1263143AA00F6C3FE /* ElectricityDetailView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityDetailView1.swift; sourceTree = "<group>"; };
+		345FFEE626315E4700F6C3FE /* WarnDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarnDetailViewController.swift; sourceTree = "<group>"; };
 		3468A3E3261D9F6600233D5C /* ChangeHeadPortraitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeHeadPortraitViewController.swift; sourceTree = "<group>"; };
 		3468A3E8261DE49F00233D5C /* FacilitiesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesDetailViewController.swift; sourceTree = "<group>"; };
+		346DB812262D8CBC00C49765 /* ChartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataModel.swift; sourceTree = "<group>"; };
+		346DB817262DD01600C49765 /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		3479E076262466F600F628D2 /* NetWorkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkSession.swift; sourceTree = "<group>"; };
+		347EC9D4262D4C8100358080 /* ElectricityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityDetailViewController.swift; sourceTree = "<group>"; };
+		347EC9D8262D4CA500358080 /* SensorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDetailViewController.swift; sourceTree = "<group>"; };
 		34B5A4002623E50200649D96 /* ChangeNickNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNickNameViewController.swift; sourceTree = "<group>"; };
 		34B5A4052623E57700649D96 /* ChangePhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePhoneNumberViewController.swift; sourceTree = "<group>"; };
 		34B5A4092623E5A100649D96 /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailViewController.swift; sourceTree = "<group>"; };
+		34B929CE2625B54600D3672F /* FacilitiesDetailCollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesDetailCollectionViewCell1.swift; sourceTree = "<group>"; };
+		34C1AA23262E9D2C00C3FAFA /* FacilitiesDetailCollectionViewCell4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesDetailCollectionViewCell4.swift; sourceTree = "<group>"; };
 		34D5B53C261C03DB006F013E /* MyViewView1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView1Controller.swift; sourceTree = "<group>"; };
 		34D5B53F261C03ED006F013E /* MyViewView2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView2Controller.swift; sourceTree = "<group>"; };
 		34D5B542261C03FE006F013E /* MyViewView3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewView3Controller.swift; sourceTree = "<group>"; };
-		34D5B545261C0AA8006F013E /* CompanyInformationUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInformationUnitView.swift; sourceTree = "<group>"; };
 		34D8633D261C3B1000C522A9 /* HomVewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomVewCollectionViewCell.swift; sourceTree = "<group>"; };
 		34D86340261C3D4700C522A9 /* CustomerOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerOverviewViewController.swift; sourceTree = "<group>"; };
 		34FEED55261D86AA00357E86 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				345A31442605D6A300A710BA /* WarnViewController.swift */,
+				345FFEE626315E4700F6C3FE /* WarnDetailViewController.swift */,
 			);
 			path = Warn;
 			sourceTree = "<group>";
@@ -115,7 +134,7 @@
 				34D86340261C3D4700C522A9 /* CustomerOverviewViewController.swift */,
 				3415B3E6261C8FB30009E1F5 /* CompanyDetailViewController.swift */,
 				3415B3E9261C90CB0009E1F5 /* CompanyDetailCollectionViewCell.swift */,
-				3468A3E8261DE49F00233D5C /* FacilitiesDetailViewController.swift */,
+				34B929CD2625B4C000D3672F /* Facilities */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -131,10 +150,10 @@
 		3415B3D9261C7F970009E1F5 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				34D5B545261C0AA8006F013E /* CompanyInformationUnitView.swift */,
 				3415B3DA261C7FE30009E1F5 /* MagicRectView.swift */,
 				3415B3E2261C89290009E1F5 /* SearchLabelView.swift */,
 				3415B3DF261C84660009E1F5 /* SearchViewController.swift */,
+				346DB817262DD01600C49765 /* ColorHelper.swift */,
 				3479E076262466F600F628D2 /* NetWorkSession.swift */,
 			);
 			path = Tool;
@@ -177,6 +196,17 @@
 			path = atos;
 			sourceTree = "<group>";
 		};
+		345FFEE526315E0000F6C3FE /* ElectricityDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				347EC9D4262D4C8100358080 /* ElectricityDetailViewController.swift */,
+				345FFEE1263143AA00F6C3FE /* ElectricityDetailView1.swift */,
+				340FC2A426311D3700E36314 /* ElectricityDetailView2.swift */,
+				340FC2A726311D5900E36314 /* ElectricityDetailView3.swift */,
+			);
+			path = ElectricityDetailView;
+			sourceTree = "<group>";
+		};
 		34B5A3FF2623E4A100649D96 /* View1Subviews */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +216,19 @@
 				34B5A4092623E5A100649D96 /* ChangeEmailViewController.swift */,
 			);
 			path = View1Subviews;
+			sourceTree = "<group>";
+		};
+		34B929CD2625B4C000D3672F /* Facilities */ = {
+			isa = PBXGroup;
+			children = (
+				3468A3E8261DE49F00233D5C /* FacilitiesDetailViewController.swift */,
+				34B929CE2625B54600D3672F /* FacilitiesDetailCollectionViewCell1.swift */,
+				34C1AA23262E9D2C00C3FAFA /* FacilitiesDetailCollectionViewCell4.swift */,
+				345FFEE526315E0000F6C3FE /* ElectricityDetailView */,
+				347EC9D8262D4CA500358080 /* SensorDetailViewController.swift */,
+				346DB812262D8CBC00C49765 /* ChartDataModel.swift */,
+			);
+			path = Facilities;
 			sourceTree = "<group>";
 		};
 		7B213559DB5D5A65DDB7F048 /* Frameworks */ = {
@@ -323,25 +366,34 @@
 				3415B3E0261C84660009E1F5 /* SearchViewController.swift in Sources */,
 				345A31422605D68500A710BA /* HomeViewController.swift in Sources */,
 				34D5B53D261C03DB006F013E /* MyViewView1Controller.swift in Sources */,
+				346DB813262D8CBC00C49765 /* ChartDataModel.swift in Sources */,
+				34C1AA24262E9D2C00C3FAFA /* FacilitiesDetailCollectionViewCell4.swift in Sources */,
 				34D5B543261C03FE006F013E /* MyViewView3Controller.swift in Sources */,
 				34FEED56261D86AA00357E86 /* ChangePasswordViewController.swift in Sources */,
 				345A312D2605C94600A710BA /* ViewController.swift in Sources */,
 				345A31452605D6A300A710BA /* WarnViewController.swift in Sources */,
+				346DB818262DD01600C49765 /* ColorHelper.swift in Sources */,
 				34B5A4062623E57700649D96 /* ChangePhoneNumberViewController.swift in Sources */,
+				340FC2A526311D3700E36314 /* ElectricityDetailView2.swift in Sources */,
+				347EC9D5262D4C8100358080 /* ElectricityDetailViewController.swift in Sources */,
+				34B929CF2625B54600D3672F /* FacilitiesDetailCollectionViewCell1.swift in Sources */,
 				34B5A4012623E50200649D96 /* ChangeNickNameViewController.swift in Sources */,
 				345A314A2605D6CE00A710BA /* MyViewController.swift in Sources */,
 				3468A3E4261D9F6600233D5C /* ChangeHeadPortraitViewController.swift in Sources */,
-				34D5B546261C0AA8006F013E /* CompanyInformationUnitView.swift in Sources */,
 				34D86341261C3D4700C522A9 /* CustomerOverviewViewController.swift in Sources */,
 				3415B3DB261C7FE30009E1F5 /* MagicRectView.swift in Sources */,
 				34D8633E261C3B1000C522A9 /* HomVewCollectionViewCell.swift in Sources */,
 				34D5B540261C03ED006F013E /* MyViewView2Controller.swift in Sources */,
+				347EC9D9262D4CA500358080 /* SensorDetailViewController.swift in Sources */,
 				3415B3EA261C90CB0009E1F5 /* CompanyDetailCollectionViewCell.swift in Sources */,
 				345A31292605C94600A710BA /* AppDelegate.swift in Sources */,
+				340FC2A826311D5900E36314 /* ElectricityDetailView3.swift in Sources */,
 				3479E077262466F600F628D2 /* NetWorkSession.swift in Sources */,
 				345A312B2605C94600A710BA /* SceneDelegate.swift in Sources */,
+				345FFEE2263143AA00F6C3FE /* ElectricityDetailView1.swift in Sources */,
 				3415B3E3261C89290009E1F5 /* SearchLabelView.swift in Sources */,
 				3468A3E9261DE49F00233D5C /* FacilitiesDetailViewController.swift in Sources */,
+				345FFEE726315E4700F6C3FE /* WarnDetailViewController.swift in Sources */,
 				345A313F2605D63800A710BA /* LaunchViewController.swift in Sources */,
 				34B5A40A2623E5A100649D96 /* ChangeEmailViewController.swift in Sources */,
 			);

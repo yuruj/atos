@@ -1,2 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-atos/Pods-atos-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AAInfographics/AAInfographics.framework
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

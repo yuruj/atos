@@ -1,16 +1,28 @@
 PODS:
+  - AAInfographics (6.0.0)
   - Alamofire (5.4.0)
+  - MBProgressHUD (1.2.0)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
+  - AAInfographics
   - Alamofire
+  - MBProgressHUD
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
+    - AAInfographics
     - Alamofire
+    - MBProgressHUD
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  AAInfographics: e57c6cc15ddc17df3555db6f586fb0e1b911a0b7
   Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: da1f082cf0d61a0ccf4b46b0e3c47b418b329e04
+PODFILE CHECKSUM: bf36f3b825cbf0b4d825293254e02ab47789005f
 
 COCOAPODS: 1.9.3

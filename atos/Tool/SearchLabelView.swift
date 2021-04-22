@@ -9,16 +9,20 @@ import UIKit
 
 class SearchLabelView: UIView {
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        self.backgroundColor = UIColor.clear
+    lazy var label = { () -> UILabel in
         let label = UILabel()
         label.text = "搜索你想查找的企业"
         label.textColor = UIColor.gray
         label.textAlignment = .center
-        label.frame = frame
-        label.layer.cornerRadius = 10
-        label.backgroundColor = UIColor.lightGray
+        label.font = UIFont.systemFont(ofSize: 15)
+        label.frame = CGRect(x: 15, y: 10, width: frame.size.width - 30, height: frame.size.height - 20)
+        label.layer.cornerRadius = (frame.size.height - 20) / 2
+        label.layer.masksToBounds = true
+        return label
+    } ()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         self.addSubview(label)
     }
     

@@ -7,5 +7,8 @@ target 'atos' do
 
   # Pods for atos
   pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'AAInfographics'
+  pod 'MBProgressHUD'
 
 end

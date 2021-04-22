@@ -79,6 +79,26 @@ class MyViewView1Controller: UIViewController {
         self.view.addSubview(nickNameView)
         self.view.addSubview(phoneNumberView)
         self.view.addSubview(emailView)
+        setupUI()
+    }
+    
+    func setupUI() {
+        let line1 = UIView()
+        line1.backgroundColor = UIColor.black
+        line1.frame = CGRect(x: 10, y: navHeight + 80, width: screenSize.width - 10, height: 0.5)
+        let line2 = UIView()
+        line2.backgroundColor = UIColor.black
+        line2.frame = CGRect(x: 10, y: navHeight + 140, width: screenSize.width - 10, height: 0.5)
+        let line3 = UIView()
+        line3.backgroundColor = UIColor.black
+        line3.frame = CGRect(x: 10, y: navHeight + 200, width: screenSize.width - 10, height: 0.5)
+        let line4 = UIView()
+        line4.backgroundColor = UIColor.black
+        line4.frame = CGRect(x: 10, y: navHeight + 260, width: screenSize.width - 10, height: 0.5)
+        self.view.addSubview(line1)
+        self.view.addSubview(line2)
+        self.view.addSubview(line3)
+        self.view.addSubview(line4)
     }
     
     @objc func hpViewClicked() {
